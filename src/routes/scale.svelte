@@ -1,11 +1,11 @@
 <script lang="ts">
-  import Counter from '$lib/Counter.svelte';
+  import Scaler from '$lib/Scaler.svelte';
 </script>
 
 <main>
   <h1>Hello world!</h1>
 
-  <Counter />
+  <Scaler />
 
   <p>
     Visit <a href="https://svelte.dev">svelte.dev</a> to learn how to build Svelte
