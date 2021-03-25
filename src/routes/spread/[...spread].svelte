@@ -5,6 +5,9 @@
     },
   }) {
     console.log('spread :>> ', spread);
+    if (spread === '404') {
+      return;
+    }
     return { props: { spread } };
   }
 </script>
